@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Team UK Daily Horoscopes</h1>
+        <p class="lead">Check out what's on the cards for you today!</p>
+        <div>
+        <a type="button" class="btn btn-outline-light btn-sm" href="{{ url_for('cancer') }}">Cancer</a>
+        <a type="button" class="btn btn-outline-light btn-sm" href="{{ url_for('capricorn') }}">Capricorn</a>
+        <a type="button" class="btn btn-outline-light btn-sm" href="{{ url_for('gemini') }}">Gemini</a>
+        <a type="button" class="btn btn-outline-light btn-sm" href="{{ url_for('pisces') }}">Pisces</a>
+        </div>
+    </div>
+    <p>All the credit goes to our pals at
+        <a href="https://www.astrology.com/us/home.aspx" class="badge badge-light" target="_blank">astrology.com</a>
+        and
+        <a href="https://www.horoscope.com/us/index.aspx"  class="badge badge-light" target="_blank">horoscope.com</a>
+        for their daily insight.
+    </p>
+    <div class="jumbotron">
+        <p>Want to leave some feedback?
+        Your opinion matters to me!
+        </p>
+        <p>
+        <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#exampleModal">Leave Feedback</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-body">
+                    Mate get back to work. Ain't nobody got time to read your petty feedback.
+                </div>
+                    <button type="button" class="btn btn-light btn-sm" data-dismiss="modal">Yes, I will get back to work</button>
+                </div>
+            </div>
+        </div>
+        </p>
+    </div>
+{% endblock content %}
