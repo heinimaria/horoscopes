@@ -1,36 +1,36 @@
-        * {
-        font-family: monaco, Consolas, "Lucida Console", monospace;
-        color: #FFFFFF
-        }
-        html, body {
-        height: 100%;
-        background: #000000
-        }
-        .bg {
-        background-image: url('../static/milky-way.jpg');
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
+* {
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    color: #FFFFFF
+}
+    html, body {
+    height: 100%;
+    background: #000000
+}
+    .bg {
+    background-image: url('../static/milky-way.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-        h1, h2, h3, h4, h5, h6 {
-        color: #FFFFFF;
-        }
+    h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
 
-        .bg-steel {
-        background-color: #5f788a;
-        }
+.bg-steel {
+    background-color: #5f788a;
+}
 
-        .site-header .navbar-nav .nav-link {
-        color: #cbd5db;
-        }
-        .jumbotron {
-        background: none
-        }
-        .card {
-        background: #000000
-        }
-        .modal-content {
-        background: #000000
-        }
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+}
+.jumbotron {
+    background: none
+}
+.card {
+    background: #000000
+}
+.modal-content {
+    background: #000000
+}
