@@ -10,7 +10,7 @@ url_pisces = requests.get('https://www.astrology.com/horoscope/daily/pisces.html
 def get_capricorn():
     soup_capricorn = BeautifulSoup(url_capricorn.text, 'html.parser')
     daily_capricorn = soup_capricorn.find('div', {'id': 'content'}).get_text()
-    return daily_capricorns
+    return daily_capricorn
 
 
 def get_cancer():
